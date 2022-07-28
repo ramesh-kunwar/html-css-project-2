@@ -1,6 +1,6 @@
-# Project 2
+# Project 2 [Live Demo](https://ramesh-html-css-project-2.netlify.app/)
 ## Skills Gained
-- Learned Positioning
+- Learned CSS Positioning
 
 
 # Time Taken To Finish This Project
