@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body {
+  background-color: red;
+  background-image: url('./assets/pexels-maxyne-barcel-10402282\ 1.png');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  /* font-family: 'Nunito', sans-serif; */
+
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  position: absolute;
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  background-color: rgba(4, 0, 20, 0.8);
+  /* background-color: rgba(0, 0, 0,.8); */
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+nav.navbar .list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav.navbar .list .list-item {
+  margin: 1rem;
+  display: block;
+  color: #ffc233;
+  font-weight: bolder;
+}
+
+nav.navbar button.button-small {
+  background-color: #ff505f;
+  font-size: bolder;
+  font-size: 1.2rem;
+  color: white;
+  padding: .5rem 2rem;
+  border: none;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+section[aria-label="hero"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  height: 70%;
+  text-align: center;
+  font-size: 3rem;
+  color: #ffc233;
+  font-weight: bolder;
+  width: 70%;
+  margin: 0 auto;
+}
+
+section[aria-label="hero"] button.button-large {
+  margin-top: 3rem;
+  background-color: #ff505f;
+  font-size: bolder;
+  font-size: 1.3rem;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+
+}
+
+section[aria-label="hero"] .bottom img {
+  position: absolute;
+  right: 10%;
+  width: 150px;
+  bottom: 10%;
+
+}
